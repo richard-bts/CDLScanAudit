@@ -4,7 +4,6 @@ from scanaudit.config import config
 
 import os
 
-config = config['development']
 def send_error_email():
     file_name = 'error.log'
     subject = 'Scan Audit Error'

@@ -12,8 +12,6 @@ import os
 import csv
 import xlsxwriter
 
-# #config variables 
-config = config['development']
 
 def check_last_audit():
     last_audit = None

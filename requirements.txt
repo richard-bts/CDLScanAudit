@@ -7,4 +7,4 @@ python-dotenv
 SQLAlchemy
 XlsxWriter
 Werkzeug==2.0.0
-
+requests
