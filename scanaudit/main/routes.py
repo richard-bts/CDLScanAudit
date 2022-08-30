@@ -26,5 +26,6 @@ def get_report():
     order_package_items = get_order_tracking_ids()
     return generate_audit_report(master_scan_list, order_package_items, unscanned_codes)
     
-    
-
+@main.route("/last-audit", methods=["GET", "POST"])
+def get_last_audit_report():
+    return {'data': check_last_audit()}
