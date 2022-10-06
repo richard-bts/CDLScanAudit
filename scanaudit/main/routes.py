@@ -8,9 +8,7 @@ from scanaudit.api_func.audit import (
     generate_audit_report
 )
 
-
 main = Blueprint('main', __name__)
-
 
 @main.route("/")
 @main.route("/home")
@@ -29,3 +27,4 @@ def get_report():
 @main.route("/last-audit", methods=["GET", "POST"])
 def get_last_audit_report():
     return {'data': check_last_audit()}
+
