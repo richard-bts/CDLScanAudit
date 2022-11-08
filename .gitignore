@@ -2,3 +2,7 @@ cdl_scanaudit/*
 /cdl_scanaudit
 cdl_scanaudit/
 *.xlsx
+.env 
+web.config
+error.log
+*.txt
